@@ -1,0 +1,53 @@
+body {
+	background-color: lightgray;
+}
+
+a {
+	text-decoration: none;
+}
+header {
+	background-color: yellow;
+
+}
+h1, h2 {
+	padding-bottom: 5px;
+	text-align: center;
+}
+h1 {
+	font-size: 40px;
+	background-color: green;
+	padding-top: 10px;
+}
+h2 {
+	font-size: 30px;
+}
+
+nav {
+	background-color: gray;
+	padding: 4px 0; 
+	overflow: hidden;
+}
+nav ul li {
+	display: block;
+	float: left;
+	border-right: solid white 1px;
+	border-left: solid black 1px;
+	margin: 0;
+	padding: 0 5px;
+}
+nav ul li a {
+	text-align: center;
+}
+section {
+	margin-top: 10px;
+	margin-left: 20px;
+	clear: both;
+}
+footer {
+	margin-top: 10px;
+	padding-top: 5px;
+	font-size: 12px;
+	border-top: solid 1px gray;
+	width: 80%;
+	margin-left: 20px;
+}
