@@ -1,53 +1,86 @@
-body {
+body, html {
 	background-color: lightgray;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 960px;
 }
 
+.header-wrapper {
+	background-color: rgba(50,50,225,0.5);
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
 a {
 	text-decoration: none;
 }
-header {
-	background-color: yellow;
 
-}
 h1, h2 {
 	padding-bottom: 5px;
 	text-align: center;
+	text-shadow: 0 1px 1px lightgray;
+	font-weight: 700;
 }
 h1 {
 	font-size: 40px;
-	background-color: green;
-	padding-top: 10px;
+	padding-top: 12px;
 }
 h2 {
-	font-size: 30px;
+	font-size: 28px;
 }
 
-nav {
-	background-color: gray;
+nav ul{
 	padding: 4px 0; 
 	overflow: hidden;
-}
-nav ul li {
-	display: block;
-	float: left;
-	border-right: solid white 1px;
-	border-left: solid black 1px;
-	margin: 0;
-	padding: 0 5px;
-}
-nav ul li a {
 	text-align: center;
+	width:510px;
+	margin:0 auto;
 }
+nav li {
+	float: left;
+	border-right: solid black 1px;
+	border-left: solid lightgray 1px;
+	margin: 5px 0 2px 0;
+	text-shadow: 0 1px 1px lightgray;
+}
+nav li:first-child{
+	border-left: none;
+}
+nav li:last-child{
+	border-right:none;
+}
+nav a {
+	display: block;
+	text-align: center;
+	width: 100px;
+	padding: 5px 0;
+}
+nav a:link, a:visited {
+	color: black;
+} 
+
+nav a:hover {
+	background-color: rgba(255,50,50,0.5);
+} 
+
 section {
-	margin-top: 10px;
-	margin-left: 20px;
-	clear: both;
+	margin-top: 20px;
+	font-size: 13px;
+	margin-left: 7%;
+	margin-right: 1%;
+	height: 70%;
+	line-height: 1.25;
+	background-color: rgb(200,200,200, 0.5);
 }
 footer {
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-left: 6%;
 	padding-top: 5px;
 	font-size: 12px;
 	border-top: solid 1px gray;
-	width: 80%;
-	margin-left: 20px;
+}
+.left-bar {
+	width: 5%;
+	height: 100%;
+	float: left;
+	background-color: rgba(255,50,50,0.5);
 }
