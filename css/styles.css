@@ -5,29 +5,45 @@ body, html {
 	max-width: 960px;
 }
 
+a:link, {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
 .header-wrapper {
 	background-color: rgba(50,50,225,0.5);
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 }
-a {
-	text-decoration: none;
+h1 {
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom: 8px;
 }
 
-h1, h2 {
+.header-wrapper h1, h2 {
 	padding-bottom: 5px;
 	text-align: center;
 	text-shadow: 0 1px 1px lightgray;
 	font-weight: 700;
 }
-h1 {
+.header-wrapper h1 {
 	font-size: 40px;
 	padding-top: 12px;
 }
-h2 {
+.header-wrapper h2 {
 	font-size: 28px;
 }
-
+.header-wrapper a {
+	text-decoration: none;
+}
+.header-wrapper a:link, .header-wrapper a:visited {
+	color: black;
+}
 nav ul{
 	padding: 4px 0; 
 	overflow: hidden;
@@ -54,9 +70,6 @@ nav a {
 	width: 100px;
 	padding: 5px 0;
 }
-nav a:link, a:visited {
-	color: black;
-} 
 
 nav a:hover {
 	background-color: rgba(255,50,50,0.5);
@@ -69,7 +82,6 @@ section {
 	margin-right: 1%;
 	height: 70%;
 	line-height: 1.25;
-	background-color: rgb(200,200,200, 0.5);
 }
 footer {
 	margin-top: 20px;
